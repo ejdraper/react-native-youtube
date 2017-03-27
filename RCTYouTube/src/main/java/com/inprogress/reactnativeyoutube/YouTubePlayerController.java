@@ -27,7 +27,7 @@ public class YouTubePlayerController implements
     private int controls = 1;
     private boolean showInfo = true;
     private boolean loop = false;
-    private boolean playInline = false;
+    private boolean playInline = true;
 
 
     public YouTubePlayerController(final Context mContext, YouTubeView youTubeView) {
